@@ -8,3 +8,7 @@ This is a passion project inspired by valentines day and I made it for a special
 
 ## Extra information
 I programmed and designed this project purely on my skills and knowledge, except for the JScript.
+
+
+https://github.com/user-attachments/assets/ca7d7b0d-12e1-4b49-9fe7-004464e088dc
+
