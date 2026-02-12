@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F57799;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .box{
+    background-color: #fff;
+    border-radius: 80px;
+    width: 500px;
+    height: 600px;
+    border: solid 2px #fff;
+    border: #FFF7CD 5px solid;
+}
+
+.box{
+    position: relative;
+}
+
+.text-container{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container h2{
+    font-size: 30px;
+    color: #F57799;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.text-container h2:hover{
+    color: red;
+    transform: rotate(2deg) scale(1.25);
+}
+
+.photo{
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    width: 50%;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+.photo:hover{
+    transform: scale(1.25) rotate(2deg);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.paragraphs{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+    color: #F57799;
+    font-weight: 600;
+}
+
+.button-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 25%;
+    height: 60px; 
+}
+
+.yes{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) scale(1);
+
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #F57799;
+    color: #fff;
+    cursor: pointer;
+    border: solid #FFF7CD 5px;
+    transition: transform 0.3s ease;
+}
+
+.no {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #F57799;
+    color: #fff;
+    cursor: pointer;
+    border: solid #FFF7CD 5px;
+    transition: left 0.5s ease, top 0.5s ease, transform 0.3s ease; 
+}
+
+.yes:hover{
+    transform: scale(1.25);
+    color: red;
+}
+
+.no:hover{
+    transform: scale(1.25);
+    color: red;
+}
+
+.yey {
+    display: none;
+    transform: scale(0); 
+    transition: transform 0.5s ease; 
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    margin-left: 47px;
+    margin-top: 30px;
+}
